@@ -10,5 +10,6 @@ currently Im just reloading the browser once a certificate has been added, updat
 I spent roughly 3 hours on this project split over two days.
 
 
-when the mouse cursor hovers over the certicate an overlay will appear with the information, and the buttons for deleting and updating the respective certificate. 
-the project is also responsive 
+when the mouse cursor hovers over the certicate an overlay will appear with the information, and the buttons for deleting and updating the respective certificate. the project is also responsive.
+
+when updating a certificate on the deployed version the submit button does not close the form window so you hasve to click the  close button 'x' and refresh the page and your changes will be shown  
