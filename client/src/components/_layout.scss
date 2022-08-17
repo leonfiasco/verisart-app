@@ -1,0 +1,38 @@
+// ==========================================================================
+//  Grid Resposive
+// ==========================================================================
+
+@mixin gridResponsive($coloumns, $withRowGap: false) {
+	display: grid;
+	grid-template-columns: repeat(#{$coloumns}, 1fr);
+	@media (min-width: 320px) {
+		grid-column-gap: 10px;
+		@if $withRowGap {
+			grid-row-gap: 10px;
+		}
+	}
+	@media (min-width: 500px) {
+		grid-column-gap: 12px;
+		@if $withRowGap {
+			grid-row-gap: 12px;
+		}
+	}
+	@media (min-width: 720px) {
+		grid-column-gap: 20px;
+		@if $withRowGap {
+			grid-row-gap: 20px;
+		}
+	}
+	@media (min-width: 1020px) {
+		grid-column-gap: 30px;
+		@if $withRowGap {
+			grid-row-gap: 30px;
+		}
+	}
+	@media (min-width: 1460px) {
+		grid-column-gap: 30px;
+		@if $withRowGap {
+			grid-row-gap: 30px;
+		}
+	}
+}

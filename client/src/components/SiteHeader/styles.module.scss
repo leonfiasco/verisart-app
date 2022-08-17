@@ -1,0 +1,68 @@
+@import '../layout';
+
+.header {
+	margin-bottom: 50px;
+}
+
+.titleWrap {
+	padding: 0 50px 0 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1 {
+		font-family: 'Courier New', Courier, monospace;
+		text-transform: capitalize;
+	}
+
+	.hr {
+		width: 100%;
+		border: 3px solid black;
+		border-radius: 15px;
+		margin-bottom: 15px;
+	}
+
+	button {
+		display: flex;
+		align-items: center;
+		background-color: transparent;
+		border-radius: 25px;
+		border: none;
+		cursor: pointer;
+		p {
+			font-family: 'Courier New', Courier, monospace;
+			text-transform: capitalize;
+			padding-right: 10px;
+		}
+	}
+}
+
+// ==========================================================================
+// Default
+// ==========================================================================
+@media (min-width: 320px) {
+}
+// ==========================================================================
+// Mobile Large
+// ==========================================================================
+
+@media (min-width: 500px) {
+}
+
+// ==========================================================================
+// Tablet
+// ==========================================================================
+
+@media (min-width: 768px) {
+}
+
+// ==========================================================================
+// Desktop
+// ==========================================================================
+@media (min-width: 1020px) {
+}
+
+// ==========================================================================
+// HD
+// ==========================================================================
+@media (min-width: 1460px) {
+}
